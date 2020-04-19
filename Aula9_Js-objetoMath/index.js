@@ -1,10 +1,10 @@
 let num1 = 9.54578;
 
-/*ARREDONDAMENTO P/ CIMA */
+/*ARREDONDAMENTO P/ Baixo */
 let num2 = Math.floor(num1);
 console.log('Arrendondar P/ Baixo:', num2);
 
-/*ARREDONDAMENTO P/ BAIXO */
+/*ARREDONDAMENTO P/ Cima */
 let num3 = Math.ceil(num1);
 console.log('Arredondar P/ Cima:', num3);
 
