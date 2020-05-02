@@ -15,10 +15,13 @@ const pessoas = {
         ++this.idade;
     }
 };
-pessoas.fala();
+pessoas.fala();//25 anos
 pessoas.incrementaIdade();
-pessoas.fala();
-console.log('Nome:', pessoas.nome);
+pessoas.fala();//26 anos
+pessoas.incrementaIdade();
+pessoas.fala();//27 anos
+
+console.log('Nome:', pessoas.nome);//imprimi luiz
 //console.log(pessoas);
 
 console.log('-----Função + Objetos-----');//espaço
