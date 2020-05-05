@@ -1,0 +1,38 @@
+.nome {
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.sobrenome {
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.peso {
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.altura {
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+    padding-left: 10px;/*espaçamento dentro do formulário*/
+}
+.botao {
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: -915px;
+}
+.foo {
+    float:left;
+    padding-left: 30px;
+}
+.bar {
+    padding-left: 30px;
+}
