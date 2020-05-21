@@ -20,13 +20,13 @@ function meuEscopo () {
             altura: altura.value
         });
 
-        console.log(pessoas);
+        console.log(pessoas);//imprimir objeto pessoas
 
         resultado.innerHTML += `<p>Nome: ${nome.value}, Sobrenome: ${sobrenome.value},` +
         ` Peso: ${peso.value}Kg, Altura: ${altura.value}.</p>`
     }
     //adiciona um escutador de evento no formulário
+    //escutar se ouve uma ação no submit e recebe 1 função recebeEventoForm ('submit', recebeEventoForm)
     form.addEventListener('submit', recebeEventoForm);
 }//Fim meuEscopo
 meuEscopo();
-//28min
