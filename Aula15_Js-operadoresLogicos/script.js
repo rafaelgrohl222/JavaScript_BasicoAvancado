@@ -13,19 +13,19 @@ console.log('Resultado &&:', exprecaoAnd);
 const exprecaoOr = (true || false || false || false);
 console.log('Resultado ||:', exprecaoOr);
 
-// ! = Negação
+// ! = NOT / Negação - Quantas vezes colocar vai negar
 console.log('resultado !:', !true);//Negando true
 
 console.log();//ESPAÇO
 
-//APLICANDO &&
+//APLICANDO E: &&
 const usuario = 'Luiz';//form que usuário digitou
 const senha = 123456;//form que usuário digitou
 
     const vaiLogar = (usuario === 'Luiz' && senha === 123456);//Base de dados
     console.log('Usuário e Senha:', vaiLogar);//Mensagem ao usuário
 
-//APLICANDO ||
+//APLICANDO OU: ||
 console.log();//ESPAÇO
 
 const usuario2 = 'Rafael';//form que usuário digitou
