@@ -17,8 +17,30 @@ form.addEventListener('submit', function (e) {
         setResultado('Altura invalida!', false);
         return;
     }
-    console.log('Cheguei aqui!');
+    const imc = getImc(peso, altura);
+
+    console.log(imc);
 });//escutando o evento 'submit'
+function getNivelImc (imc) {
+    const nivel = ['Abaixo do Peso', 'Peso Normal', 'Sobrepeso', 'Obesidade Grau 1', 'Obesidade grau 2', 'Obesidade Grau 3'];
+
+    if(imc >= 39.9) {
+        return nivel[5];
+    }else if(imc >= 34.9) {
+        return nivel[4];
+    }else if(imc >= 29.9) {
+        return nivel[3];
+    }else if(imc >= 24.9) {
+        return nivel[2];
+    }else if(imc >= 18.5) {
+        return nivel[1];
+    }
+}
+
+function getImc (peso, altura) {
+    const imc = peso / altura ** 2;
+    return imc.toFixed(2);
+}
 
 //função cria paragrafo
 function criaP () {
@@ -35,4 +57,4 @@ function setResultado (msg, isValid) {
     p.innerHTML = msg;
     resultado.appendChild(p);
 }
-//35min
+//43min
