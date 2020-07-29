@@ -2,7 +2,7 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 :root{
-    --primary-color: rgb(191, 218, 166);/*Variavel global*/
+    --primary-color: rgb(158, 199, 120);/*Variavel global*/
     --primary-color-houve: rgb(72, 100, 72);/*Variavel global*/
     --primary-color-active: rgb(78, 158, 78);/*Variavel global*/
 }
@@ -22,7 +22,7 @@ body {
     max-width: 640px;
     margin:10px auto;/*topo e nas margins laterais*/
     padding: 20px;
-    background: rgb(115, 170, 93);
+    background: rgb(206, 238, 195);
     border-radius: 10px;;
 }
 form input, form label, form button {
@@ -43,7 +43,7 @@ form input:focus {
 form button {
     border: none;
     background: var(--primary-color);
-    color: rgb(97, 93, 93);
+    color: rgb(71, 71, 71);
     font-size: 18px;
     font-size: 700;
     height: 40px;
@@ -58,9 +58,14 @@ form button:hover {
 form button:active {
     background: var(--primary-color-active);/*quando clica*/
 }
-.paragrafo-resultado {
-    background: rgb(183, 231, 94);
+/*Resultado positivo*/
+.paragrafo-resultado, .bad {
+    background: rgb(46, 230, 46);
     border-radius: 5px;
     padding: 10px 20px;
+}
+/*Resultado ruim*/
+.bad {
+    background: rgb(238, 109, 109);
 }
 /*15min*/
