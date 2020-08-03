@@ -7,15 +7,36 @@
 
 //m^s em js: começa no 0=janeiro e 11=dezembro (a,m,d,h,M,s,ms)
 //const data = new Date(2019, 3, 20, 15, 14, 59, 999);//ano, mes 3(abril), dia, hora, minuto, segundo, milhesimo(999max) de seg
-const data = new Date ('2019-04-20 20:15:59');//T=tempo ou hora / usa o espaço
-console.log('Dia', data.getDate());
-console.log('Mês', data.getMonth() + 1);//Começa do zero
-console.log('Ano', data.getFullYear());
-console.log('Hora', data.getHours());
-console.log('Min', data.getMinutes());
-console.log('Seg', data.getSeconds());
-console.log('ms', data.getMilliseconds());
-console.log('Dia semana', data.getDay());// 0= Domingo a 6=Sábado
-console.log(data.toString());
+//const data = new Date ('2019-04-20 20:15:59');//T=tempo ou hora / usa o espaço
+//console.log('Dia:', data.getDate());//Dia
+//console.log('Mês:', data.getMonth() + 1);//Mês, Começa do zero
+//console.log('Ano:', data.getFullYear());//Ano
+//console.log('Hora:', data.getHours());//Hora
+//console.log('Min:', data.getMinutes());//Minutos
+//console.log('Seg:', data.getSeconds());//Segundos
+//console.log('ms:', data.getMilliseconds());//Milesimo de segundos
+//console.log('Dia semana:', data.getDay());//Dia da semana, 0= Domingo a 6=Sábado
+//console.log('Milesimo de seg, hora zero:', Date.now());//Milésimo de segundos
+//console.log(data.toString());//Marco zero até hoje
 
+/*Função Zero a Esquerda*/
+function zeroAEsquerda(num){
+    return num >= 10 ? num : `0${num}`;
+}
+
+/*função formata data*/
+function formataData(data) {
+    const dia = zeroAEsquerda(data.getDate());//dia
+    const mes = zeroAEsquerda(data.getMonth() + 1);//mês
+    const ano = zeroAEsquerda(data.getFullYear());//mês
+    const hora = zeroAEsquerda(data.getHours());//mês
+    const min = zeroAEsquerda(data.getMinutes());//mês
+    const seg = zeroAEsquerda(data.getSeconds());//mês
+
+    return `${dia}/${mes}/${ano} ${hora}:${min}:${seg}`
+    //console.log(data);
+}
+const data = new Date();
+const dataBrasil = formataData(data);
+console.log(dataBrasil);
 //18min
