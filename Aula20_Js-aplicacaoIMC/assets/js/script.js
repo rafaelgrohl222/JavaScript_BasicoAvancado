@@ -55,13 +55,14 @@ function setResultado(msg, isValid) {
     resultado.innerHTML = '';//zerando o HTML
     //isValide = se essa função for valida(verde ou vermelho)
     //recebe 1 mensagem e se ela
-    const p = criaP();
+    const p = criaP();//Cria o paragrafo
+    // verifica se a flag foi enviada (verdadeira ou falsa) 
     if (isValid) {
-        p.classList.add('paragrafo-resultado');
+        p.classList.add('paragrafo-resultado');//Fundo Verde (Verdadeiro)
     } else {
-        p.classList.add('bad');
+        p.classList.add('bad');//Fundo vermelho(Falso)
     }
-    p.innerHTML = msg;
+    p.innerHTML = msg;//Seta c/ a mensagem enviada
     resultado.appendChild(p);//criação de um elemento no paragrafo
 }
 //53min
