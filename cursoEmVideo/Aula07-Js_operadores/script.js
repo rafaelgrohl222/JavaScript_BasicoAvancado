@@ -9,7 +9,9 @@
 * 1- (), 
 * 2- **, 
 * 3- * e / e %
-* 4- + e -
+* 4- <, > <=, >=, 
+* 5- 1-!, 2-&&, 3-||
+* 6- + e -
 * ATRIBUIDORES DE ADICAO
 * +=, -=,*=,/=,%=,**=
 * Pos-INCREMENTO
@@ -45,6 +47,7 @@ console.log('Pos-decremento:',n1);
 var n3 = 3;
 ++n3;
 console.log('Pre-incremento:',n3);
+//parei aula 8 0min
 
 
 

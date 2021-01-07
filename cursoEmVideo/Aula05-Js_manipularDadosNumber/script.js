@@ -18,7 +18,7 @@ var n2 = Number(window.prompt('Digite o segundo numero:'));
 var soma = n1 + n2;
 //soma.toFixed(2)//casas decimais com 2
 //soma.replace('.',',')
-window.alert('Soma: ' + soma.toFixed(2).replace('.',','));
+window.alert('Soma: ' + soma.toFixed(2).replace('.' , ','));
 window.alert(`Soma: ${soma.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})}`);
 
 //parei aula 7 time 1min
