@@ -8,13 +8,23 @@
     <link rel="stylesheet" href="../Aula10-Js_evento_DOM/estilo_2.css">
 </head>
 <body>
-    <h1>Somando Números</h1>
+    <div class="soma">
+        <h1>Somando Números</h1>
 
-    <input type="number" name="txtn1" id="txtn1"> <strong>+</strong>
-    <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="Somar" onclick="somar()">
-    <div id="res">Resultado:</div>
+        <input type="number" name="txtn1" id="txtn1" placeholder="Inserir 1 nº"> <strong>+</strong>
+        <input type="number" name="txtn2" id="txtn2" placeholder="Inserir 2 nº">
+        <input type="button" value="Somar" onclick="somar()">
+        <div id="res">Resultado:</div>
+    </div><!--Div-Somar-->
 
+    <div class="subtrai">
+        <h1>Subtrair Números</h1>
+
+        <input type="number" name="txtn3" id="txtn3" placeholder="Inserir 1 nº"> <strong>-</strong>
+        <input type="number" name="txtn4" id="txtn4" placeholder="Inserir 2 nº">
+        <input type="button" value="Subtrair" onclick="subtrair()">
+        <div id="resSubtra">Resultado:</div>
+    </div><!--Div-Subtrair-->
     <!--Javascript-->
     <script src="../Aula10-Js_evento_DOM/script_2.js"></script>
 </body>

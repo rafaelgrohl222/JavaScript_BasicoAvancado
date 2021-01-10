@@ -10,4 +10,18 @@ input[type=button]{
 div#res{
     font-size: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+.soma{
+    background: rgb(75, 75, 119);
+    color: rgb(255, 255, 255);
+}
+.subtrai{
+    background: rgb(34, 34, 65);
+    color: rgb(255, 255, 255);
+}
+div#resSubtra{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
