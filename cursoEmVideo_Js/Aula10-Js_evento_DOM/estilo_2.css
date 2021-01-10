@@ -1,0 +1,13 @@
+input {
+    height: 30px;
+    width: 200px;
+    font: normal 20px arial;
+}
+input[type=button]{
+    height: 35px;
+    width: 100px;
+}
+div#res{
+    font-size: 30px;
+    margin-top: 10px;
+}
