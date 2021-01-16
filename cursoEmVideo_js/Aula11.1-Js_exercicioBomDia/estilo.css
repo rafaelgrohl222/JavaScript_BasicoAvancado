@@ -1,0 +1,29 @@
+body{
+    background: rgb(107, 107, 241);
+    font: normal 15px arial;
+}
+/*Cabeçalho*/
+header{
+    color: white;/*cor texto*/
+    text-align: center;/*texto centralizado*/
+}
+/*Estrutura*/
+section{
+    background: white;/*cor de fundo*/
+    border-radius: 10px;/*borda aredondada*/
+    padding: 15px;/*espaco*/
+    width: 500px;/*largura*/
+    margin: auto;/*centralizada*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);/*sombra lateral section*/
+}
+div{
+    text-align: center;
+    padding: 10px;
+}
+/*Rodape*/
+footer{
+    text-align: center;/*texto centralizado*/
+    color: white;/*cor texto*/
+    font-style: italic;/*estilo texto italico*/
+}
+/*04min - Exercícios JavaScript (Parte 2) - Curso JavaScript*/
