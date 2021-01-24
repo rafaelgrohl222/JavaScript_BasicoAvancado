@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS-->
+        <link rel="stylesheet" href="../Aula11.3-Js_exercicioVerificarIdade/estilo.css">
+        <title>Verificador de Idade!</title>
+    </head>
+    <body><!--quando carregar, chama a function-->
+        <header>
+            <h1>Verificador de Idade!</h1>
+        </header><!--header Cabeçalho-->
+        <section>
+            <div>
+                <p>Ano de Nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0" placeholder="Ex: 1980 ou 80">
+                </p><!--p-ano-->
+                </p>Sexo:
+                    <input type="radio" name="radsex" id="mas" checked><!--checked-ja fica marcado-->
+                    <label for="mas">Masculino</label>
+
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p><!--p-sexo-->
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p><!--input-button-->
+            </div><!--div msg-->
+            <div id="res">
+                Preencha os dados acima para ver o resultado!
+            </div><!--div foto-->
+        </section><!--section Estrutura-->
+
+        <footer>
+            <p>&copy; Curso em video</p>
+        </footer><!--Rodape-->
+
+        <!--Javascript-->
+        <script src="../Aula11.3-Js_exercicioVerificarIdade/script_teste.js"></script>
+        <!--<script src="../Aula11.3-Js_exercicioVerificarIdade/script.js"></script>-->
+    </body>
+</html>

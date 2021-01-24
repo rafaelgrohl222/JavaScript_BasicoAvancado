@@ -7,7 +7,7 @@ Number.parseInt(n)//converter numero inteiro (2)
 Number.parseFloat(n)//converter numero real (1.4)
 Number(n)//converte numero real e inteiro (2, 1.4)
 n1.toFixed(2) // casas decimais com 2 (00.00)
-n1.toFixer(2).replace('.',',')
+n1.toFixer(2).replace('.',',')// converte (.)ponto em (,)virgula
 
 /*------IMPORTANTE------BRL-USD-EUR
 localizacao por regiao, corrigir p/ corrigir por 'dinheiro' dinheiro real do brasil

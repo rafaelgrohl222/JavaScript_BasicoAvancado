@@ -12,15 +12,15 @@
 // console.log('');//espaco
 function carregar() {
     var msg = document.getElementById('msg');//div mensagem
-    var img = document.getElementById('imagem');//div imagem
+    var img = document.getElementById('foto');//div imagem
     var data = new Date();//data atual
     var hora = data.getHours();//hora atual
-    
+
     /*inativo
     var hora = 20;
     msg.innerHTML = `Agora são ${hora}hrs.`;
-    */ 
-
+    */
+    
     if (hora >= 0 && hora < 12) {
         // Bom Dia
         img.src = 'manha.png';
