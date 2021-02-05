@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS-->
+        <link rel="stylesheet" href="../Aula15-Js_exercicio_tabuadaSelect/estilo.css">
+        <title>Tabuada</title>
+    </head>
+
+    <body><!--quando carregar, chama a function-->
+        <header>
+            <h1>Tabuada</h1>
+        </header><!--header Cabeçalho-->
+
+        <section>
+            <div>
+               Número: <input type="number" name="num" id="txtnum" placeholder="Inserir nº para gerar tabuada">
+               <input type="button" value="Gerar tabuada" onclick="tabuada()">
+            </div><!--div-->
+            <div>
+                <select name="taboada" id="seltab" size="10">
+                    <option>Digite um nº acima!</option>
+                </select><!--size-10-tamanho-select-->
+            </div><!--div-->
+            <div id="res"></div>
+        </section><!--section Estrutura-->
+        <footer>
+            <p>&copy; Curso em video</p>
+        </footer><!--Rodape-->
+
+        <!--Javascript-->
+        <script src="../Aula15-Js_exercicio_tabuadaSelect/script.js"></script>
+        <!--<script src="../Aula11.3-Js_exercicioVerificarIdade/script.js"></script>-->
+    </body>
+</html>
